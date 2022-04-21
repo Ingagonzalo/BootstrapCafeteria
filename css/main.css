@@ -1,0 +1,143 @@
+/*===============Propiedades Globales================*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+}
+
+
+
+/*NAVBAR*/
+
+
+#menu{
+    border-bottom: 5px solid rgba(0, 0, 0, 0.1);
+}
+
+#menu a, button{
+     font-size: 18px !important;
+     font-weight: 600;
+     
+    
+}
+
+#menu a{
+     color:#3f3f3f;
+     
+}
+
+/*CARRUSEL*/
+
+
+.carousel-item img{
+    height: 10% !important;
+}
+
+.carousel-inner {
+    max-height:60rem !important;
+}
+
+
+.somoscafe{
+    color: #663300;
+    font-weight: bold;
+}
+
+
+/*FOTTER*/
+
+footer {
+    background-color: #663300;
+    
+}
+footer p{
+    color:#f3f3f3;
+    text-align:center;
+}
+
+footer a{
+    color: #f3f3f3;
+}
+
+
+/*TITULOS*/
+
+.tittle{
+    background-color:#663300;
+    height: 8rem;
+}
+
+
+/*MAPA*/
+
+.map{
+    height: 90vh;
+}
+
+
+/*MENU*/
+
+.menu_cafe{
+    margin-bottom: 50px;
+    
+}
+
+.menu_cafe a{
+    color:#3f3f3f;
+    text-decoration: none;
+}
+
+.titulos-menu{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin: auto;
+    width: 75%;
+    border-top: 3px solid rgba(0, 0, 0, 0.158);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.158);
+}
+
+.menu-item{
+    
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    margin-bottom: 20px;
+    margin: 50px;
+}
+
+
+
+.comidas{
+    margin-bottom: 200px;
+}
+
+
+/*ARTICULOS CAFE*/
+
+.columna{
+    padding: 3rem;
+    
+}
+
+
+
+/*MEDIA QUERIES PANTALLA*/
+
+@media (max-width: 768px){
+
+   
+
+    .titulos-menu{
+        margin-bottom: 2rem;
+    }
+
+    .menu-item{
+        
+        margin: auto;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+
+}
